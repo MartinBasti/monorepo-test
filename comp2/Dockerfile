@@ -1,4 +1,5 @@
-FROM registry.access.redhat.com/ubi8/ubi-minimal@sha256:5f1cd3422d5d46aea35dac80825dbcbd58213eef49c317f42a394345fb4e8ff1
+FROM quay.io/redhat-user-workloads/mbasti-tenant/monorepo-test/monorepo-test-dep:17bdd40cfa1428a456b0bef13552ff68b54c3260
+
 
 RUN echo "comp2"
 
